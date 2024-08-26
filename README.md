@@ -1,8 +1,8 @@
 [![anasfanani - Magisk-Tailscaled](https://img.shields.io/static/v1?label=anasfanani&message=Magisk-Tailscaled&color=blue&logo=github)](https://github.com/anasfanani/Magisk-Tailscaled "Go to GitHub repo")
-[![Check and Update Tailscale Binary](https://github.com/anasfanani/Magisk-Tailscaled/actions/workflows/update.yml/badge.svg)](https://github.com/anasfanani/Magisk-Tailscaled/actions/workflows/update.yml)
-[![Github All Releases](https://img.shields.io/github/downloads/anasfanani/Magisk-Tailscaled/total.svg)]()
-[![GitHub release](https://img.shields.io/github/release/anasfanani/Magisk-Tailscaled?include_prereleases=&sort=semver&color=blue)](https://github.com/anasfanani/Magisk-Tailscaled/releases/)
-[![issues - Magisk-Tailscaled](https://img.shields.io/github/issues/anasfanani/Magisk-Tailscaled)](https://github.com/anasfanani/Magisk-Tailscaled/issues)
+[![Check and Update Tailscale Binary](https://github.com/dorom741/Magisk-Tailscaled/actions/workflows/update.yml/badge.svg)](https://github.com/dorom741/Magisk-Tailscaled/actions/workflows/update.yml)
+[![Github All Releases](https://img.shields.io/github/downloads/dorom741/Magisk-Tailscaled/total.svg)]()
+[![GitHub release](https://img.shields.io/github/release/anasfanani/Magisk-Tailscaled?include_prereleases=&sort=semver&color=blue)](https://github.com/dorom741/Magisk-Tailscaled/releases/)
+[![issues - Magisk-Tailscaled](https://img.shields.io/github/issues/anasfanani/Magisk-Tailscaled)](https://github.com/dorom741/Magisk-Tailscaled/issues)
 [![Static Badge](https://img.shields.io/badge/Discussion-Telegram-blue?style=flat&logo=telegram&link=t.me%2Fsystembinsh%2F158)](https://t.me/systembinsh/158)
 
 # Magisk Tailscaled
@@ -24,7 +24,7 @@ The [Tailscale app](https://play.google.com/store/apps/details?id=com.tailscale.
 
 ## Quick Start & Installation
 
-1. Download the latest zip file from the [Releases](https://github.com/anasfanani/Magisk-Tailscaled/releases/latest) page.
+1. Download the latest zip file from the [Releases](https://github.com/dorom741/Magisk-Tailscaled/releases/latest) page.
 2. Install the downloaded zip file using Magisk & reboot your phone.
 3. Open the Terminal.
 4. Login with `su -c tailscale login`
@@ -202,7 +202,7 @@ If the last step fails, the problem likely lies with `socks5-tun`. Verify there 
 
 ### My subnet-routes is'nt working
 
-Yes because we need define the routes with `iptables` in file `tailscaled.tun.up` and `tailscaled.tun.down`, you can check this [issue reference](https://github.com/anasfanani/Magisk-Tailscaled/issues/17).
+Yes because we need define the routes with `iptables` in file `tailscaled.tun.up` and `tailscaled.tun.down`, you can check this [issue reference](https://github.com/dorom741/Magisk-Tailscaled/issues/17).
 I suppose you're already know the iptables works, if dont, there are chatAI to ask.
 You can copy whole `tailscaled.tun.up` script to chatAI and send instruction with please add 192.168.1.1/24 to this route, also dont forget `tailscaled.tun.down` 
 
@@ -210,7 +210,7 @@ If you still can't do it by yourself, I'm verry welcome to people who needs help
 
 ### Exit nodes
 
-You can check this [issue reference](https://github.com/anasfanani/Magisk-Tailscaled/issues/17).
+You can check this [issue reference](https://github.com/dorom741/Magisk-Tailscaled/issues/17).
 
 ### ipv6
 
@@ -218,7 +218,7 @@ Unfortunately, I'm verry lazy to learn ipv6.
 
 ### Headscale 
 
-Check [this](https://github.com/anasfanani/Magisk-Tailscaled/issues/19#issuecomment-2091579177).
+Check [this](https://github.com/dorom741/Magisk-Tailscaled/issues/19#issuecomment-2091579177).
 Also explore on the issue first, then you can ask trough telegram.
 
 
@@ -232,7 +232,7 @@ You can explore to the issue tab, if there not exists, you can open issue, for h
 
 ## Notes
 
-This module is confirmed to be supported for KernelSU, as [confirmed by the author of KernelSU](https://github.com/anasfanani/Magisk-Tailscaled/issues/2#issue-2055047162). If you encounter any problems, please let me know.
+This module is confirmed to be supported for KernelSU, as [confirmed by the author of KernelSU](https://github.com/dorom741/Magisk-Tailscaled/issues/2#issue-2055047162). If you encounter any problems, please let me know.
 
 For more information, check out the links below:
 
