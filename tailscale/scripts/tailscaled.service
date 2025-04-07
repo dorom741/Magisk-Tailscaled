@@ -35,6 +35,10 @@ program(){
       log Info "✔ ${bin_name} service is running with PID: ${PID}."
       return 1
     fi
+
+    mkdir -p /dev/net
+    [ ! -L /dev/net/tun ] && ln -s /dev/tun /dev/net/tun
+    return 0
   }
   start(){
     log Info "Starting ${bin_name} service."
